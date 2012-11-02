@@ -13,10 +13,10 @@ Using it is easy:
 
 Upon starting it up, you'll see a happy colon
 at the top and several co-centric rings of 
-circles slowly prominading around their shared
+circles slowly promenading around their shared
 midpoint.  Typing in a number and pressing enter
 will cause the interface to go through a quick
-convultion and yield the number and it's Church
+convulsion and yield the number and it's Church
 numeral printed vertically along the side.
 Great, huh?
 
@@ -32,7 +32,7 @@ The output will be:
 `(4, ^f^x (f (f (f (f x)))))`
 
 You see, the `>` operator will assign a symbol
-a meaning to the global environment, so instad 
+a meaning to the global environment, so instead 
 of having to type `^n^f^x (n f x)` every time
 you want to compute `n + 1`, you can assign
 it a symbol and use that symbol instead.
@@ -51,7 +51,7 @@ All of these count as `<expression>`s.
 ## Details:
 
 This calculator features implicit currying and 
-lexical scope.  It has no tail-call optimisation.
+lexical scope.  It has no tail-call optimization.
 It is call-by-value, so be very weary when using it;
 the Y-Combinator will end your session very quickly,
 for example.
